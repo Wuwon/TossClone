@@ -1,0 +1,78 @@
+* {font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';}
+.textbox{
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardbox{
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #4b4b4b;    
+}
+.text2{
+    font-size: 20px;
+    color: gray
+}
+.text3{
+    font-size: 15px;
+    color: skyblue;
+}
+
+.mainspace{
+    /* border: 5px solid black; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+}
+/* reft Space..work */
+.reftspace{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* right space ..work */
+.rightspace{
+    /* border: 3px solid rebeccapurple; */
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    /* border: 0.5px solid black; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:
+        0 30px 60px 12px rgba(0, 0, 33, 0.05),
+        0 4px 24px 0 rgba(0, 0, 33, 0.05),
+        0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+    margin: 5px;
+    border-radius: 15px;
+}
+.banck{
+    /* border: 0.5px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    color: slategray;
+}
+.price{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    color: slategrey;
+}
